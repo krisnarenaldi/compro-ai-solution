@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Hanken_Grotesk, JetBrains_Mono, Manrope } from "next/font/google";
 import "./globals.css";
+import TopNav from "./components/TopNav";
+import Footer from "./components/Footer";
 
 const hankenGrotesk = Hanken_Grotesk({
   variable: "--font-hanken-grotesk",
@@ -20,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Aetheris AI - Fluid Intelligence",
   description:
-    "Experience the next generation of intelligence that adapts, learns, and flows with your enterprise.",
+    "We design and implement AI automation, agents, and intelligent workflows that help businesses reduce manual work, improve efficiency, and make better decisions.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -36,7 +38,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
       </head>
       <body className="antialiased font-body-md text-body-md min-h-screen flex flex-col">
+        <TopNav />
         {children}
+        <Footer />
       </body>
     </html>
   );

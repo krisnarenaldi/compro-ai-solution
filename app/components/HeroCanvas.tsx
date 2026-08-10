@@ -167,5 +167,6 @@ export default function HeroCanvas() {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="w-full h-full" />;
+  return <canvas ref={canvasRef} className="w-full h-full block" width={300} height={150} />;
+
 }
