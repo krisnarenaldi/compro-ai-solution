@@ -41,16 +41,41 @@ export default function SolutionsPage() {
             Solutions
           </p>
           <h1 className="font-display-lg text-display-lg text-primary max-w-4xl mx-auto mb-6">
-            Intelligent services built to automate, accelerate, and augment work.
+            AI Solutions Built Around Your Business
           </h1>
-          <p className="text-on-surface-variant text-body-md max-w-3xl mx-auto">
-            Our suite of AI solutions helps teams reduce manual work, improve
-            operational efficiency, and unlock smarter decision-making.
+          <p className="text-on-surface-variant text-body-md max-w-3xl mx-auto mb-4">
+            We help businesses automate repetitive work, turn scattered data into actionable insights, and build practical AI systems that fit the way they already work.
+          </p>
+          <p className="text-on-surface-variant text-body-md max-w-3xl mx-auto mb-10">
+            From workflow automation to AI agents and intelligent knowledge systems, we design and implement solutions around your actual business processes — not one-size-fits-all software.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              href="/contact"
+              className="btn-primary rounded-full px-8 py-4 text-sm font-medium"
+            >
+              Let's Find What You Can Automate →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro section between Hero and Cards */}
+      <section className="py-12 px-margin-mobile md:px-margin-desktop">
+        <div className="max-w-container-max mx-auto text-center">
+          <h2 className="font-display-lg text-[40px] md:text-[56px] leading-[1.1] tracking-[-0.02em] font-bold text-primary max-w-2xl mx-auto mb-4">
+            Solutions That Solve<br />Real Problems
+          </h2>
+          <p className="text-on-surface-variant text-body-md max-w-xl mx-auto mb-2">
+            AI is most valuable when it becomes part of the way your business works.
+          </p>
+          <p className="text-on-surface-variant text-body-md max-w-xl mx-auto">
+            Explore how we can help you reduce manual work, improve decision-making, and make information easier to access.
           </p>
         </div>
       </section>
 
-      <section className="py-24 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+      <section className="pb-24 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div className="grid gap-gutter grid-cols-1 md:grid-cols-2">
           {services.map((service) => (
             <Link

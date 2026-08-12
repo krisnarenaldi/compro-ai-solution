@@ -37,7 +37,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
         />
       </head>
-      <body className="antialiased font-body-md text-body-md min-h-screen flex flex-col">
+      <body suppressHydrationWarning className="antialiased font-body-md text-body-md min-h-screen flex flex-col">
         <TopNav />
         {children}
         <Footer />
