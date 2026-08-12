@@ -5,7 +5,7 @@ import { useState } from "react";
 type FormState = "idle" | "submitting" | "success" | "error";
 
 const inputClass =
-  "mt-2 rounded-xl border border-white/10 bg-[#141820] px-4 py-3 text-white outline-none focus:border-primary/60 transition-colors placeholder:text-white/20 w-full";
+  "mt-2 rounded-xl border border-black/10 bg-white px-4 py-3 text-on-background outline-none focus:border-primary/40 focus:ring-1 focus:ring-primary/20 transition-colors placeholder:text-black/25 w-full";
 
 export default function ContactPage() {
   const [state, setState] = useState<FormState>("idle");

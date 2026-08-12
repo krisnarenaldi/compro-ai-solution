@@ -4,7 +4,7 @@ import HeroCanvas from "./components/HeroCanvas";
 export default function Home() {
   return (
     <main className="flex-grow pt-20">
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[#0c111b]">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-[#edeaf5]">
         <div className="absolute inset-0 hero-wave-fallback pointer-events-none"></div>
         <div className="absolute inset-0 w-full h-full z-0">
           <HeroCanvas />

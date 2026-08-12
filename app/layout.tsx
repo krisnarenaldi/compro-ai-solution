@@ -30,7 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${hankenGrotesk.variable} ${manrope.variable} ${jetbrainsMono.variable} dark`}
+      className={`${hankenGrotesk.variable} ${manrope.variable} ${jetbrainsMono.variable}`}
     >
       <head>
         <link

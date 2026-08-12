@@ -11,7 +11,7 @@ const navItems = [
 
 export default function TopNav() {
   return (
-    <nav className="fixed top-0 w-full z-50 bg-[#353839] backdrop-blur-xl border-b border-white/10">
+    <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-black/8 shadow-sm">
       <div className="flex justify-between items-center max-w-container-max mx-auto px-margin-desktop h-20">
         <Link href="/" className="font-display-lg text-headline-lg tracking-tighter text-primary">
           Aetheris AI
