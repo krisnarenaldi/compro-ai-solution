@@ -29,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${hankenGrotesk.variable} ${manrope.variable} ${jetbrainsMono.variable} dark`}
     >
       <head>
