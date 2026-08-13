@@ -62,7 +62,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
         {/* Google Analytics */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-YOUR_MEASUREMENT_ID"
+          src="https://www.googletagmanager.com/gtag/js?id=G-E5CCDDGBFX"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
