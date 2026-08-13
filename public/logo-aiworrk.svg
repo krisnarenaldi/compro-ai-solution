@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 56" fill="none">
+  <!-- Circle icon with play triangle -->
+  <circle cx="20" cy="28" r="16" fill="#2B2BF5"/>
+  <!-- Play triangle: slightly cut/notch style -->
+  <path d="M15 21 L28 28 L15 35 Z" fill="white"/>
+  <!-- small notch on the right of the circle to match logo style -->
+  <circle cx="30" cy="28" r="6" fill="#F5EDE6"/>
+
+  <!-- Text: aiworrk -->
+  <text x="44" y="37" font-family="'Hanken Grotesk', 'Inter', sans-serif" font-weight="700" font-size="26" fill="#111111" letter-spacing="-0.5">aiworrk</text>
+</svg>

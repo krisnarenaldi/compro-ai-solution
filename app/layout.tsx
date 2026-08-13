@@ -20,7 +20,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aetheris AI - Fluid Intelligence",
+  title: "AIWorrk - Fluid Intelligence",
   description:
     "We design and implement AI automation, agents, and intelligent workflows that help businesses reduce manual work, improve efficiency, and make better decisions.",
 };

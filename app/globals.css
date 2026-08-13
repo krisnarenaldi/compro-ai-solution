@@ -170,14 +170,15 @@ body {
   animation: heroWaveMove 16s ease-in-out infinite alternate;
 }
 
-/* ── Page hero surface ───────────────────────────────────────────────────── */
+/* ── Page hero surface (legacy, kept for CTA sections) ──────────────────── */
 
 .page-hero-surface {
   position: relative;
   background:
-    radial-gradient(circle at 15% 20%, rgba(160, 120, 32, 0.1),  transparent 22%),
-    radial-gradient(circle at 85% 25%, rgba(74, 96, 128, 0.08), transparent 18%),
-    linear-gradient(180deg, #e8e3f0 0%, #edeaf5 100%);
+    radial-gradient(ellipse 80% 60% at 95% -5%, rgba(0, 120, 255, 0.15), transparent 60%),
+    radial-gradient(ellipse 60% 50% at -10% 110%, rgba(127, 0, 230, 0.12), transparent 55%),
+    radial-gradient(ellipse 50% 50% at 90% 110%, rgba(0, 200, 255, 0.1), transparent 50%),
+    linear-gradient(160deg, #ffffff 0%, #f0f4f8 100%);
   overflow: hidden;
 }
 
@@ -185,9 +186,8 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(circle at 50% 20%, rgba(26, 39, 68, 0.03), transparent 25%),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.4), transparent 45%);
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.02;
   pointer-events: none;
 }
 
@@ -195,6 +195,21 @@ body {
 .page-hero-surface .max-w-4xl {
   position: relative;
   z-index: 1;
+}
+
+/* ── Page hero gradient (new, used by PageHero component) ────────────────── */
+
+.page-hero-gradient {
+  /* background is set inline per-variant via the component */
+}
+
+/* Grain/noise texture overlay */
+.page-hero-gradient__noise {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.018;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* ── Animations ──────────────────────────────────────────────────────────── */

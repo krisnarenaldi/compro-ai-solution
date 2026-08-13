@@ -120,7 +120,7 @@ export default function ContactPage() {
               className={inputClass}
               type="text"
               name="budget"
-              placeholder="e.g. $10k – $50k"
+              placeholder="e.g. IDR10mio – IDR50mio"
               disabled={state === "submitting"}
             />
           </label>
