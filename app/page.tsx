@@ -12,12 +12,15 @@ export default function Home() {
         </div>
         <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center flex flex-col items-center">
           <h1 className="font-headline-lg-mobile md:font-display-lg text-headline-lg-mobile md:text-display-lg text-primary max-w-4xl mb-6">
-            Turn Repetitive Work Into Intelligent Workflows
+            {/*Turn Repetitive Work Into Intelligent Workflows*/}
+            Turn Complex Operations Into Autonomous Growth
           </h1>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-2xl mb-12">
-            We design and implement AI automation, agents, and intelligent
+            {/*We design and implement AI automation, agents, and intelligent
             workflows that help businesses reduce manual work, improve
-            efficiency, and make better decisions.
+            efficiency, and make better decisions.*/}
+            From custom AI agents and advanced machine learning models to enterprise-wide automation, 
+            we build scalable intelligence that powers your entire business.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Link

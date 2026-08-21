@@ -105,6 +105,7 @@ We keep the process collaborative and transparent:
 
 > We bring together experience in AI engineering, data, automation, and software development to turn business problems into practical AI solutions.
 
+### Krisna Renaldi
 **Founder & AI Engineer**
 
 > AI Engineering · Data · Automation · Intelligent Systems

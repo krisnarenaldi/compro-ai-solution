@@ -149,7 +149,7 @@ We design AI systems with the right balance between automation and human oversig
 
 
 ### What We Deliver
-### **From Assessment to Working Solution**
+#### From Assessment to Working Solution
 
 Depending on the project, our engagement can produce:
 
